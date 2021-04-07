@@ -3,7 +3,7 @@ main = do
     print $ reverseOrdSuff 37563
     print $ reverseOrdSuff 32763
     print $ reverseOrdSuff 32567
-    print $ reverseOrdSuff 32666
+    print $ reverseOrdSuff 32666    
 
 reverseOrdSuff :: Int -> Int
 reverseOrdSuff n = helper (div n 10) (mod n 10) (mod n 10)
